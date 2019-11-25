@@ -18,7 +18,7 @@ end
 
 def remove_element_from_end_of_array(array)
   cafe_drinks = ["coffee", "tea", "espresso", "frap"]
-  cafe_drinks.pop
+  frap_drink = cafe_drinks.pop
 end
 
 def remove_element_from_start_of_array(array)
