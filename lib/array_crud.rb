@@ -7,17 +7,14 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  cafe_drinks = ["coffee", "tea", "espresso", "frap"]
   cafe_drinks.push(element)
 end
 
 def add_element_to_start_of_array(array, element)
-  cafe_drinks = ["coffee", "tea", "espresso", "frap"]
   cafe_drinks.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
-  cafe_drinks = ["coffee", "tea", "espresso", "frap"]
   frap_drink = array.pop
 end
 
