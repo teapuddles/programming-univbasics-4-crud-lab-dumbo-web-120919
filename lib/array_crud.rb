@@ -1,13 +1,13 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+ cafe_drinks = ["coffee", "tea", "espresso", "frap"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  cafe_drinks << "latte"
 end
 
 def add_element_to_start_of_array(array, element)
