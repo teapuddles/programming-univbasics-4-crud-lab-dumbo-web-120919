@@ -8,7 +8,7 @@ end
 
 def add_element_to_end_of_array(array, element)
   cafe_drinks = ["coffee", "tea", "espresso", "frap"]
-  cafe_drinks << "element"
+  cafe_drinks.push(element)
 end
 
 def add_element_to_start_of_array(array, element)
