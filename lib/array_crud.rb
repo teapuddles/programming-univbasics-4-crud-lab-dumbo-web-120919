@@ -23,12 +23,12 @@ end
 
 def remove_element_from_start_of_array(array)
   cafe_drinks = ["coffee", "tea", "espresso", "frap"]
-  cafe_drinks.shift
+  coffe_drink = array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
   cafe_drinks = ["coffee", "tea", "espresso", "frap"]
-  cafe_drinks[index_number]
+  array[index_number]
 end
 
 def retrieve_first_element_from_array(array)
