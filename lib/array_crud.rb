@@ -28,7 +28,7 @@ end
 
 def retrieve_element_from_index(array, index_number)
   cafe_drinks = ["coffee", "tea", "espresso", "frap"]
-  cafe_drinks
+  cafe_drinks[index_number]
 end
 
 def retrieve_first_element_from_array(array)
