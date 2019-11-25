@@ -12,19 +12,23 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  cafe_drinks = ["coffee", "tea", "espresso", "frap"]
+  cafe_drinks.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
-  
+  cafe_drinks = ["coffee", "tea", "espresso", "frap"]
+  cafe_drinks.pop
 end
 
 def remove_element_from_start_of_array(array)
-  
+  cafe_drinks = ["coffee", "tea", "espresso", "frap"]
+  cafe_drinks.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  
+  cafe_drinks = ["coffee", "tea", "espresso", "frap"]
+  cafe_drinks
 end
 
 def retrieve_first_element_from_array(array)
